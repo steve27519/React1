@@ -6,7 +6,7 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Image from "./components/Image";
 import Img from "./components/Img.json"
-//image imports (since I'm not using a server)
+//image imports 
 import apu from "./images/apu.jpg"
 import bart from "./images/bart.jpg"
 import beavis from "./images/beavis.jpg"
