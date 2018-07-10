@@ -1,0 +1,48 @@
+[{
+    "name": "apu",
+    "url": "./images/apu.jpg"
+  },
+  {
+    "name": "bart",
+    "url": "./images/bart.jpg"
+  },
+  {
+    "name": "beavis",
+    "url": "./images/beavis.jpg"
+  },
+  {
+    "name": "butthead",
+    "url": "./images/butthead.jpg"
+  },
+  {
+    "name": "hank",
+    "url": "./images/hank.jpg"
+  },
+  {
+    "name": "krusty",
+    "url": "./images/krusty.jpg"
+  },
+  {
+    "name": "lisa",
+    "url": "./images/lisa.jpg"
+  },
+  {
+    "name": "lois",
+    "url": "./images/lois.jpg"
+  },
+  {
+    "name": "mrburns",
+    "url": "./images/mrburns.jpg"
+  },
+  {
+    "name": "ned",
+    "url": "./images/ned.jpg"
+  },
+  {
+    "name": "peggy",
+    "url": "./images/peggy.jpg"
+  },
+  {
+    "name": "peter",
+    "url": "./images/peter.jpg"
+  }]
