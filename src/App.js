@@ -3,10 +3,9 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Image from "./components/Image";
-import Img from "./components/Img.json"
+import Img from "./components/Img.json";
 //image imports 
-
-import bart from "./images/bart.jpg";
+// import bart from "./images/bart.jpg";
 import './App.css';
 
 class App extends Component {
@@ -20,6 +19,7 @@ class App extends Component {
   // random shuffle
   shuffleArray = (array) => {
     let imgArray = Img;
+    console.log("img 4", Img[3]);
     for (let i = imgArray.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
       [imgArray[i], imgArray[j]] = [imgArray[j], imgArray[i]];
@@ -49,46 +49,48 @@ class App extends Component {
     }
   }
 
-  imgSwitch = (name) => {
-    switch (name) {
-      case "apu":
-        return "${apu}"
-      case "bart":
-        return "${bart}"
-      case "beavis":
-        return "${beavis}"
-      case "hank":
-        return "${hank}"
-      case "krusty":
-        return "${krusty}"
-      case "lisa":
-        return "${lisa}"
-      case "lois":
-        return "${lois}"
-      case "mrburns":
-        return "${mrburns}"
-      case "ned":
-        return "${ned}"
-      case "peggy":
-        return "${peggy}"
-      case "peter":
-        return "${peter}"
-      case "butthead":
-        return "${butthead}"
-      default:
-        return "${apu}"
-    }
-  }
+  // imgSwitch = (name) => {
+  //   switch (name) {
+  //     case "apu":
+  //       return "${apu}"
+  //     case "bart":
+  //       return "${bart}"
+  //     case "beavis":
+  //       return "${beavis}"
+  //     case "hank":
+  //       return "${hank}"
+  //     case "krusty":
+  //       return "${krusty}"
+  //     case "lisa":
+  //       return "${lisa}"
+  //     case "lois":
+  //       return "${lois}"
+  //     case "mrburns":
+  //       return "${mrburns}"
+  //     case "ned":
+  //       return "${ned}"
+  //     case "peggy":
+  //       return "${peggy}"
+  //     case "peter":
+  //       return "${peter}"
+  //     case "butthead":
+  //       return "${butthead}"
+  //     default:
+  //       return "${apu}"
+  //   }
+  // }
 
   render() {
     return (
       <div>
+        
         <Navbar correct={this.state.correct} topscore={this.state.topscore} message={this.state.message}/>
         <Header />
         <Main>
-        <img src={bart}/> 
-          {this.shuffleArray(Img).map(image => (
-            <Image url={bart} name={image.name} pickImg={this.pickImg}  />
+          
+            {this.shuffleArray(Img).map(image => (
+            
+            <Image key={image.id} url={image.image} name={image.name} pickImg={this.pickImg}  />
           ))}
         </Main>
         

@@ -1,6 +1,75 @@
 [
+  { 
+    "id": 1,
+    "image": "assets/images/bart.jpg",
+    "clicked": false
+  },
+
   {
-    "name": "bart",
-    "url": "./images/bart.jpg"
+    "id": 2,
+    "image": "assets/images/apu.jpg",
+    "clicked": false
+  },
+
+  {
+    "id": 3,
+    "image": "assets/images/beavis.jpg",
+    "clicked": false
+  },
+
+{ 
+    "id": 4,
+    "image": "assets/images/butthead.jpg",
+    "clicked": false
+  },
+
+  { 
+    "id": 5,
+    "image": "assets/images/hank.jpg",
+    "clicked": false
+  },
+
+  { 
+    "id": 6,
+    "image": "assets/images/krusty.jpg",
+    "clicked": false
+  },
+
+  { 
+    "id": 7,
+    "image": "assets/images/lisa.jpg",
+    "clicked": false
+  },
+
+  { 
+    "id": 8,
+    "image": "assets/images/lois.jpg",
+    "clicked": false
+  },
+
+  { 
+    "id": 9,
+    "image": "assets/images/mrburns.jpg",
+    "clicked": false
+  },
+
+  { 
+    "id": 10,
+    "image": "assets/images/ned.jpg",
+    "clicked": false
+  },
+
+  { 
+    "id": 11,
+    "image": "assets/images/peggy.jpg",
+    "clicked": false
+  },
+
+  { 
+    "id": 12,
+    "image": "assets/images/peter.png",
+    "clicked": false
   }
-  ]
+
+]
+  
