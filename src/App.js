@@ -13,7 +13,7 @@ class App extends Component {
     picked: [],
     correct: 0,
     topscore: 0,
-    message: 'Click an image to begin'
+    message: "Click an image to begin"
   };
 
   // random shuffle
