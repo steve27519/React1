@@ -4,8 +4,7 @@ import Navbar from "./components/Navbar.js";
 import Main from "./components/Main";
 import Image from "./components/Image.js";
 import Img from "./components/Img.json";
-import Header from "./components/Header.js";
-//image imports
+
 
 import './App.css';
 
@@ -55,7 +54,7 @@ class App extends Component {
       <div>
 
         <Navbar correct={this.state.correct} topscore={this.state.topscore} message={this.state.message}/>
-        <Header />
+
         <Main>
 
             {this.shuffleArray(Img).map(image => (
