@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Navbar from "./components/Navbar.js";
+import Navbar from "./components/NavbarComponent.js";
 
 import Main from "./components/Main";
-import Image from "./components/Image.js";
+import Image from "./components/ImageComponent";
 import Img from "./components/Img.json";
 
 
